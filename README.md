@@ -4,7 +4,7 @@ Simple uint64 bitset for Go.
 
 Sets are uint64 values. Elements are integers from 0 to 63 (inclusive). Sets
 can be used as keys in maps. Basic operations like union and intersection are executed by
-bit functions.
+bit operations.
 
 Using this library will not make your code much shorter. It will only enhance readability.
 E.g., `Union(set1, set2)` isn't shorter than `set1 | set2`, but it's easier to read. And
